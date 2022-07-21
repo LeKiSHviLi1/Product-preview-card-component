@@ -1,5 +1,4 @@
 body{
-	background-color: #F3EAE3;
 	background-color: hsl(30, 38%, 92%);
 	display: grid;
 	min-height: 100vh;
@@ -32,51 +31,31 @@ body{
 }
 
 .text1{
-
 	font-family: 'Montserrat', sans-serif;
 	font-size: 16px;
-	font-weight: bold;
 	text-transform: uppercase;
-	font-weight: 400;
-	text-decoration-color: #666875;
-	margin-bottom: 16px;
-	letter-spacing: 6px;
 	font-weight: 500;
 	text-decoration-color: hsl(158, 36%, 37%);
 	margin-bottom: 32px;
 	font-stretch: condensed;
 }
 .h1{
-	font-size: 40px;
-	colorL: #13181E;
 	font-size: 38px;
 	colorL: hsl(158, 36%, 37%);
 	text-transform: capitalize;
-	font-weight: bolder;
 	margin-bottom: 24px;
-	letter-spacing: 2px;
 	font-family: 'Fraunces', serif;
 	font-weight: 700;
 }
 .text2{
-	font-size: 16	px;
-	color: #9797A1;
 	font-size: 14px;
 	color: gray;
 	margin-bottom: 32px;
-	letter-spacing: 1px;
 	font-weight: 700;
 	font-family: 'Montserrat', sans-serif;
 }
 .num_price{
 	display: inline-flex;
-text-align: center;
-flex-direction: row;
-flex-wrap: nowrap;
-align-content: center;
-justify-content: space-between;
-align-items: center;
-width: 100%;
 	text-align: center;
 	flex-direction: row;
 	flex-wrap: nowrap;
@@ -89,13 +68,8 @@ width: 100%;
 }
 .sale_price{
 	text-transform: uppercase;
-	font-size: 38px;
 	font-size: 32px;
 	color: #3C7C64;
-	font-weight: bold;
-	display: inline-block;
-	margin-right: 24px;
-	margin-bottom: 24px;
 	font-weight: 700;
 	font-family: 'Fraunces', serif;
 	
@@ -103,8 +77,6 @@ width: 100%;
 }
 .price{
 	color: #76777C;
-	font-size: 16px;
-	display: inline-block;
 	font-size: 14px;
 	font-family: 'Montserrat', sans-serif;
 	margin-left: 24px;
@@ -114,7 +86,6 @@ width: 100%;
 	width: 236px;
 	height: 48px;
 	border-radius: 8px;
-	background-color: #1A4031;
 	background-color: #3C7C64;/*#1A4031;*/
 	border-width: 0px;
 	display: inline-flex;
@@ -128,17 +99,11 @@ width: 100%;
 }
 
 .icon{
-	display: inline-block;
 	margin-right: 16px;
-	color:  #FBFFFD;
 }
 
 .text{
 	color:  #FBFFFD;
-	letter-spacing: 1px;
-	display: inline-block;
-	text-align: center;
-	alignment-baseline: central;
 	font-family: 'Montserrat', sans-serif;
 	
 }
