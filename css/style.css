@@ -87,7 +87,7 @@ body{
 	width: 236px;
 	height: 48px;
 	border-radius: 8px;
-	background-color: #3C7C64;/*#1A4031;*/
+	background-color: #3C7C64;
 	border-width: 0px;
 	display: inline-flex;
 	text-align: center;
@@ -96,7 +96,13 @@ body{
 	justify-content: safe center;
 	align-content: center;	
 	align-items: center;
+
+	transition: all linear;
 	
+}
+
+.button:hover{
+	background-color: #1A4031;
 }
 
 .icon{
