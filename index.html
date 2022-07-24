@@ -1,12 +1,15 @@
 <!DOCTYPE html>
 <html>
-<head>
+<head>	
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="stylesheet" type="text/css" media="screen and (min-width: 600px)" href="css/style.css">
+	<link rel="stylesheet" type="text/css" media="screen and (max-width: 600px)" href="css/style1.css">
+
+
 	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Product preview card component</title>
 	<link rel="icon" type="image/x-icon" href="images/favicon-32x32.png">
-	<link rel="stylesheet" type="text/css" href="css/reset.css">
-	<link rel="stylesheet" type="text/css" href="css/style.css">
 
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -20,7 +23,13 @@
 <body>
 	<div class="card">
 		<div>
-			<img class="img" src="images/image-product-desktop.jpg" alt="image">
+			<picture>
+			    <source media="(min-width: 600px)" srcset="images/image-product-desktop.jpg">
+			    <source media="(max-width: 600px)" srcset="images/image-product-mobile.jpg">
+				<img class="img" src="images/image-product-desktop" alt="Dream Team">
+			</picture>
+
+ 
 		</div>
 		<div class="content_div">
 			<p class="text1">perfium</p>
