@@ -104,6 +104,7 @@
 
 	.button:hover{
 		background-color: #1A4031;
+		cursor: pointer;
 	}
 
 	.icon{
